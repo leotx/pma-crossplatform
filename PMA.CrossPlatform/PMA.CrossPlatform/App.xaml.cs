@@ -8,10 +8,12 @@ using XLabs.Ioc.Ninject;
 
 namespace PMA.CrossPlatform
 {
-    public class App : Application
+    public partial class App : Application
     {
         public App()
         {
+            InitializeComponent();
+
             if (!Resolver.IsSet) SetIoc();
 
             RegisterViews();
