@@ -18,9 +18,7 @@ namespace PMA.CrossPlatform
 
             RegisterViews();
 
-            var mainPage = ViewFactory.CreatePage<MainViewModel, MainView>() as Page;
-
-            MainPage = new NavigationPage(mainPage);
+            MainPage = new Root();
         }
 
         private static void RegisterViews()

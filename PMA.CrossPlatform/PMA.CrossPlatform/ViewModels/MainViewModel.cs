@@ -1,8 +1,6 @@
-﻿using XLabs.Forms.Mvvm;
-
-namespace PMA.CrossPlatform.ViewModels
+﻿namespace PMA.CrossPlatform.ViewModels
 {
-    public class MainViewModel : ViewModel
+    public class MainViewModel : BaseViewModel
     {
         private string _message;
 
